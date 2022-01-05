@@ -1,0 +1,26 @@
+<div class = "container">
+    <h1>Student Data</h1>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Marks</th>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let student of students">
+                <td> {{student.id}} </td>
+                <td> {{student.name}} </td>
+                <td> {{student.email}} </td>
+                <td> {{student.gender}} </td>
+                <td> {{student.marks}} </td>
+            </tr>
+        </tbody>
+    </table>
+    <canvas id="myChart" style="width:100%;max-width:600px"  *ngFor = "let student of students"></canvas>
+</div>
+
+
+
+

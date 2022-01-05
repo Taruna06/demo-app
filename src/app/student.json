@@ -1,0 +1,25 @@
+[
+    {
+        "id":1,
+        "name":"Abhishek",
+        "email":"abhishek@gmail.com",
+        "gender":"male",
+        "marks":90
+    },
+
+    {
+        "id":2,
+        "name":"Sehajveer",
+        "email":"sehajveer@gmail.com",
+        "gender":"male",
+        "marks":91
+    },
+
+    {
+        "id":3,
+        "name":"Taruna",
+        "email":"taruna@gmail.com",
+        "gender":"female",
+        "marks":93
+    }
+]
